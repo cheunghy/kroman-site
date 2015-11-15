@@ -2,7 +2,6 @@
   "name": "kroman-site",
   "version": "1.0.0",
   "description": "Kroman site",
-  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -18,11 +17,15 @@
   "bugs": {
     "url": "https://github.com/cheunghy/kroman-site/issues"
   },
-  "homepage": "https://github.com/cheunghy/kroman-site#readme",
+  "homepage": "https://github.com/cheunghy/kroman-site",
   "dependencies": {
     "express": "^4.13.3",
     "jade": "^1.11.0",
     "react": "^0.14.2",
     "webpack": "^1.12.6"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-util": "^3.0.7"
   }
 }

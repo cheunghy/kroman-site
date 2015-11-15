@@ -10,10 +10,6 @@ var app = express();
 app.set('views', __dirname);
 app.set('view engine', 'jade');
 
-// Setup public assets
-app.use(express.static('public'));
-app.use(app.router);
-
 // Routes
 
 app.get('/*', function(req, res) {
