@@ -20,6 +20,9 @@
   },
   "homepage": "https://github.com/cheunghy/kroman-site#readme",
   "dependencies": {
-    "express": "^4.13.3"
+    "express": "^4.13.3",
+    "jade": "^1.11.0",
+    "react": "^0.14.2",
+    "webpack": "^1.12.6"
   }
 }
