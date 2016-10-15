@@ -1,12 +1,8 @@
-// The web framework
 var express = require('express');
-// The view framework
-var react = require('react');
-
-// Our nice app
 var app = express();
 
-// Setup jade
+// Setup view
+
 app.set('views', __dirname);
 app.set('view engine', 'jade');
 
@@ -21,5 +17,4 @@ app.get('/*', function(req, res) {
   }
 });
 
-// Start working!
 app.listen(4000);

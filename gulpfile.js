@@ -5,7 +5,7 @@ gulp.task('build', function(callback){
   var webpack = require('webpack');
   webpack({
     context: __dirname,
-    entry: "./client.js",
+    entry: "./client.jsx",
     output: {
       path: __dirname + '/built',
       filename: 'application.js'
