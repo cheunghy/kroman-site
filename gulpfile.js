@@ -33,7 +33,7 @@ gulp.task('build', function(callback){
       ]
     },
     sassLoader: {
-      indentedSyntax: true
+      indentedSyntax: false
     }
   }, function (err, stats) {
     if (err) throw new gutil.PluginError("webpack", err);

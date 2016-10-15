@@ -3,6 +3,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import languages from './languages';
 
+require('./src/style.scss');
+
 document.addEventListener('DOMContentLoaded', () => {
 
   let appContainer = document.createElement('div');
