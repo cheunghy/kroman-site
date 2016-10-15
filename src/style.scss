@@ -1,3 +1,9 @@
+$main-blue-color: #29b7ef;
+
 .title {
-  background-color: #29b7ef;
+  background-color: $main-blue-color;
+}
+
+.language-selector {
+  background-color: $main-blue-color;
 }

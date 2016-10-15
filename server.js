@@ -13,7 +13,13 @@ app.get('/*', function(req, res) {
     res.sendFile(__dirname + '/built/application.js');
   } else {
     console.log(req.path);
-    res.render('app');
+    var applicationJs;
+    if (process.env['kroman env'] === 'development') {
+      applicationJs = 'http://localhost:8080/application.js';
+    } else {
+      applicationJs = 'application.js';
+    }
+    res.render('app', {applicationJs: applicationJs});
   }
 });
 

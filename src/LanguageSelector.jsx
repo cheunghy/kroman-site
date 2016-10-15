@@ -12,7 +12,7 @@ export default class LanguageSelector extends React.Component {
     return <div className="language-selector">
       {
         map(keys(this.props.languages), (key) => {
-          return <div className="language-item">
+          return <div className="language-item" key={key}>
             {this.props.languages[key]['languages'][key]}
           </div>
         })
